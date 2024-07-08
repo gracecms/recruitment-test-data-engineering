@@ -31,8 +31,8 @@ services:
 
   example-python:
     image: example-python
-    build: images/example-python
-    command: ["./example.py"]
+    build: images/python
+    command: ["./python.py"]
     volumes:
       - ./data:/data
 
